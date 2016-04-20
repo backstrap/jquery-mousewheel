@@ -1,0 +1,45 @@
+{
+  "name": "backstrap/jquery-mousewheel",
+  "title": "jQuery MouseWheel",
+  "description": "A jQuery plugin that adds cross-browser mouse wheel support.",
+  "type": "component",
+  "authors": [
+    {
+      "name": "jQuery Foundation and other contributors",
+      "homepage": "https://github.com/jquery/jquery-mousewheel/blob/master/AUTHORS.txt"
+    }
+  ],
+  "homepage": "https://github.com/jquery/jquery-mousewheel",
+  "keywords": [
+      "jquery",
+      "mouse",
+      "wheel",
+      "event",
+      "mousewheel",
+      "jquery-plugin",
+      "browser"
+  ],
+  "support": {
+    "issues": "https://github.com/jquery/jquery-mousewheel/issues"
+  },
+  "license":  "MIT",
+  "require": {
+    "robloach/component-installer": "*",
+    "components/jquery": ">=1.2.2"
+  },
+  "extra": {
+    "component": {
+      "scripts":[
+        "jquery.mousewheel.js"
+      ],
+      "files": [
+        "jquery.mousewheel.min.js"
+      ],
+      "shim": {
+        "deps": [
+          "jquery"
+        ]
+      }
+    }
+  }
+}
